@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='py_messaging_library',
+    name='rn_py_messaging_library',
     version='1.0.0',
     packages=[
         'rabbitmq_client',
