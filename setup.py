@@ -18,7 +18,7 @@ setup(
                 'pika which is the officially recommended client for Rabbit MQ.',
     install_requires=[
         'pika==1.3.2',
-        'pydantic==2.10.3',
-        'starlette==0.41.3'
+        'pydantic==2.10.6',
+        'starlette==0.45.3'
     ]
 )
