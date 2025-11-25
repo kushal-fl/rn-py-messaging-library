@@ -19,6 +19,6 @@ setup(
     install_requires=[
         'pika==1.3.2',
         'pydantic==2.10.3',
-        'starlette==0.41.3'
+        'starlette==0.49.1'
     ]
 )
