@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='rn_py_messaging_library',
-    version='1.0.0',
+    version='2.0.0',
     packages=[
         'rabbitmq_client',
         'rabbitmq_client/async_connection',
@@ -18,7 +18,7 @@ setup(
                 'pika which is the officially recommended client for Rabbit MQ.',
     install_requires=[
         'pika==1.3.2',
-        'pydantic==2.10.3',
-        'starlette==0.49.1'
+        'pydantic==2.12.5',
+        'starlette==1.0.0'
     ]
 )
